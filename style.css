@@ -14,7 +14,7 @@ body, html {
 body:hover .letter1{
 	transform: translateY(300px);
 	visibility: visible;
-	transition-delay: 1s;
+	transition-delay: 2s;
 }
 
 body:hover .letter2{
