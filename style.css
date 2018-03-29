@@ -1,0 +1,132 @@
+body, html { 
+    background-image: url(paradise.jpg);
+    height: 100%; 
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+	margin: 0 auto;
+	width: 850px;
+}
+
+body:hover .letter1{
+	transform: translateY(300px);
+	visibility: visible;
+	transition-delay: 1s;
+}
+
+body:hover .letter2{
+	visibility: visible;
+	animation: fadeIn 5.5s;
+}
+
+body .btn-secondary:hover{
+	background-color: #2B88FF;
+	color: white;
+	border: solid white 2px;
+
+}
+
+body:hover .btn{
+	visibility: visible;
+	animation: fadeButton 5s;
+
+
+}
+
+.letters{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+	visibility: hidden;
+
+}
+
+.letter1 {
+	font-family: 'Merienda One';
+	font-size: 2.5em;
+	transition: 1.5s ease-in-out;
+
+}
+
+.letter2 {
+	font-size: 6em;
+	letter-spacing: 10px;
+	margin-left: 20px;
+	margin-top: 300px;
+
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  25% {
+  	opacity: 0;
+  }
+  30% {
+  	opacity: 0;
+  }
+  40% {
+  	opacity: 0;
+  }
+   50% {
+  	opacity: 0;
+  }
+    100% {
+  	opacity: 1;
+  }
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	text-shadow: 1px 0.5px 0.5px #000000; 
+	font-weight: 900;
+	font-size: 100%;
+
+}
+
+.btn {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	border: solid white 2px;
+	border-radius: 10px;
+	font-family: gotham;
+	font-style: italic;
+	font-size: 100%;
+	width: 20%;
+	height: 20%;
+	visibility: hidden;
+	animation-fill-mode: forwards;
+
+}
+
+.btn-secondary {
+	background-color: #55BC00;
+	color: white;
+}
+
+@keyframes fadeButton {
+  0% {
+    opacity: 0;
+  }
+  25% {
+  	opacity: 0;
+  }
+  30% {
+  	opacity: 0;
+  }
+  90% {
+  	opacity: 0;
+  }
+    100% {
+  	opacity: 1;
+  }
+}
